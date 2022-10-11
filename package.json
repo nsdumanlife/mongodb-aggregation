@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "description": "MongoDB aggregation examples",
-  "main": "index.js",
+  "main": "src/index.js",
   "author": "Numan Selman Duman",
   "license": "MIT",
   "scripts": {

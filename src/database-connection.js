@@ -1,7 +1,10 @@
 const mongoose = require('mongoose')
+const dotenv = require('dotenv')
+
+dotenv.config()
 
 // eslint-disable-next-line prefer-const
-let connectionString = process.env.MONGODB_CONNECTION_STRING || 'mongodb://localhost:27017'
+let connectionString = process.env.MONGODB_CONNECTION_STRING
 
 mongoose.set('debug', true)
 
